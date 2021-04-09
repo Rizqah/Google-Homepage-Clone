@@ -1,0 +1,173 @@
+ html, body{
+     margin: 0;
+     height: 100%;
+ }
+
+ .nav{
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 15px;
+ }
+ .nav a.topmenu img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 2cm;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ .toplink a:hover{
+     text-decoration: underline;
+ }
+
+ .nav a {
+     margin-right: 20px;
+ }
+
+ .nav a.topimage{
+     width: 20px;
+     height: 20px;
+     
+     border-radius: 50%;
+
+ }
+ .nav a.topimage img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+ }
+
+ .middle{
+     flex-grow: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+     
+
+ }
+ .logo{
+     text-align: center; 
+     
+ }
+
+ img{
+     width: 300px;
+    
+     
+     
+ }
+
+ .searchcontainer{
+     text-align: center;
+     margin-top: 20px;
+     position: relative;
+ }
+ .searchbar:hover{
+     box-shadow:0 0 10px 2px rgb(197, 196, 196);
+
+ }
+
+ .searchbar{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 50px;
+     padding-right: 50px;
+     outline: 0;
+     width: 500px;
+     border-radius: 15px;
+     border: 1px solid grey;
+ }
+
+ .search, .voice{
+     position: absolute;
+     top: 0;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+    .search{
+        left: 20px;
+        
+    }
+    .voice{
+        right: 20px;
+        
+    }
+    .voice img{
+        width:20px;
+        
+    }
+    .search img{
+        width:20px;
+        
+    }
+ .buttons{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+ }
+
+ .button{
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px 5px;
+     cursor: pointer;
+     background: rgb(235, 233, 233);
+     border: 2px solid transparent;
+ }
+ .button:hover{
+     box-shadow: 0 0 2px 1px rgb(177, 176, 176);
+     border: 2px solid #eee;
+ }
+
+ .links{
+     text-align: center;
+     margin-top: 20px;
+ }
+ body{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .footer-content{
+     background: #eee;
+     height:50px;
+     border: 1px solid #eee;
+     border-bottom: .3px solid rgb(211, 209, 209);
+ }
+ .footer-content1{
+    background: #eee;
+    height:50px;
+    border: 1px solid #eee;
+    text-align: center;
+    
+    
+ }
+ .footer-content1 a{
+   
+    text-decoration: none;
+    color: grey;
+    padding: 50px;
+    
+ }
+ .footer-content a{
+     padding: 100px;
+     color:rgb(129, 125, 125);
+     text-decoration: none;
+     
+    
+     
+ }
+ .footer-content :hover{
+     text-decoration: underline;
+ }
+
+ .footer-content1 :hover{
+    text-decoration: underline;
+}
